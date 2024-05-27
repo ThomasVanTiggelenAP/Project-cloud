@@ -98,6 +98,18 @@
 
     </footer>
 
+    <script>
+        function recordVisit(){
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "record_visit.php", true);
+            xhr.send();
+        }
+
+        window.onload = function() {
+            recordVisit();
+        };
+    </script>
+
 </body>
 
 </html>
