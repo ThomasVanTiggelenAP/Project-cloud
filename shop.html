@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pinpong shop">
+    <title>webshop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="JS/cartScript.js" defer></script>
+    <script src="JS/wishlistScript.js" defer></script>
+    <script src="https://kit.fontawesome.com/3917df40f2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="assets/icons/fictieflogo.png" alt="logo" width="100" height="100"></a>
+        <nav>
+            <ul>
+                <li>
+                    <search>
+                        <form action="#">
+                            <label class="searchicon">
+                                <img src="assets/icons/SearchIcon.png" alt="search" width="20px" height="20px"><input
+                                    type="search" id="query" placeholder="zoeken" />
+                            </label>
+                        </form>
+                    </search>
+                <li><a href="index.html">home</a></li>
+                <li><a href="shop.html" class="active">Shop</a></li>
+                <li><a href="klanten.html">Klanten</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><img src="assets/icons/Winkelkar.png" alt="winkelkar" width="30" height="25"></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="shop-container">
+        <aside>
+            <article class="cartBox">
+                <p id="root"></p>
+                <p class="sidebar">
+                <h1>Winkelmandje</h1>
+                <ul id="cartItem">Je mandje is leeg</ul>
+                <p class="foot">
+                <h3>Totaal</h3>
+                <h3 id="total">€ 0.00</h3>
+                </p>
+                </p>
+            </article>
+        </aside>
+        <main>
+            <section class="shoptitel">
+                <h1>Ons assortiment</h1>
+                <p class="line1"></p>
+            </section>
+            <section class="container">
+                <article class="product">
+                    <a href="pingpongtafel.html">
+                        <h1>Pingpongtafel</h1>
+                    </a>
+                    <p>Pinkponkk Indoor/Outdoor pingpongtafel<br>|<br>€499</p>
+                    <i class="fa-regular fa-heart heart"></i>
+                    <img src="assets/images/IMG_7880.webp" alt="tafel" width="300" height="400">
+                    <button class="cart">Voeg toe aan winkelmandje</button>
+                </article>
+                <article class="product">
+                    <a href="pallet.html">
+                        <h1>Pallet</h1>
+                    </a>
+                    <p>Pinkponkk standaard pallet<br>|<br>€80</p>
+                    <i class="fa-regular fa-heart heart"></i>
+                    <img src="assets/images/IMG_7879.webp" alt="pallet" width="300" height="400">
+                    <button class="cart">Voeg toe aan winkelmandje</button>
+                </article>
+                <article class="product">
+                    <a href="scorebord.html"><h1>Scorebord</h1></a>
+                    <p>Pinkponkk scorebord, 2 zijdes<br>|<br>€30</p>
+                    <i class="fa-regular fa-heart heart"></i>
+                    <img src="assets/images/IMG_7864 (1) (1) (1) (1).webp" alt="scorebord" width="300" height="400">
+                    <button class="cart">Voeg toe aan winkelmandje</button>
+                </article>
+                <article class="product">
+                    <a href="balletjes.html"><h1>Balletjes</h1></a>
+                    <p>Pinkponkk 20 balletjes<br>|<br>€23</p>
+                    <i class="fa-regular fa-heart heart"></i>
+                    <img src="assets/images/balletjes (1).webp" alt="balletjes" width="300" height="400">
+                    <button class="cart">Voeg toe aan winkelmandje</button>
+                </article>
+                <article class="product">
+                    <a href="balnetje.html"><h1>Balnetje</h1></a>
+                    <p>Pinkponkk balnetje<br>|<br>€15</p>
+                    <i class="fa-regular fa-heart heart"></i>
+                    <img src="assets/images/balnetje.webp" alt="balnetje" width="300" height="400">
+                    <button class="cart">Voeg toe aan winkelmandje</button>
+                </article>
+                <article class="product">
+                    <a href="kledij.html"><h1>Kledij</h1></a>
+                    <p>Pinkponkk standaard t-shirt<br>|<br>€45</p>
+                    <i class="fa-regular fa-heart heart"></i>
+                    <img src="assets/images/kledij.webp" alt="kledij" width="300" height="400">
+                    <button class="cart">Voeg toe aan winkelmandje</button>
+                </article>
+                <article class="product">
+                    <a href="sportzak.html"><h1>Sportzak</h1></a>
+                    <p>Pinkponkk sportzak groot<br>|<br>€70</p>
+                    <i class="fa-regular fa-heart heart"></i>
+                    <img src="assets/images/rugzak (1).webp" alt="sportzak" width="300" height="400">
+                    <button class="cart">Voeg toe aan winkelmandje</button>
+                </article>
+                <article class="product">
+                    <a href="rubbers.html"><h1>Rubbers</h1></a>
+                    <p>Pinkponkk rubbers 1 paar<br>|<br>€90</p>
+                    <i class="fa-regular fa-heart heart"></i>
+                    <img src="assets/images/rubber (1).webp" alt="rubbers" width="300" height="400">
+                    <button class="cart">Voeg toe aan winkelmandje</button>
+                </article>
+                <article class="product">
+                    <a href="lijm.html"><h1>Lijm</h1></a>
+                    <p>Pinkponkk lijm<br>|<br>€5</p>
+                    <i class="fa-regular fa-heart heart"></i>
+                    <img src="assets/images/lijm.webp" alt="lijm" width="300" height="400">
+                    <button class="cart">Voeg toe aan winkelmandje</button>
+                </article>
+                <article class="product">
+                    <a href="palletcase.html"><h1>Palletcase</h1></a>
+                    <p>Pinkponkk standaard case<br>|<br>€30</p>
+                    <i class="fa-regular fa-heart heart"></i>
+                    <img src="assets/images/case.webp" alt="case" width="300" height="400">
+                    <button class="cart">Voeg toe aan winkelmandje</button>
+                </article>
+                <article class="product">
+                    <a href="robot.html"><h1>Robot</h1></a>
+                    <p>Pinkponkk terugspeelrobot<br>|<br>€1200</p>
+                    <i class="fa-regular fa-heart heart"></i>
+                    <img src="assets/images/robot.webp" alt="robot" width="300" height="400">
+                    <button class="cart">Voeg toe aan winkelmandje</button>
+                </article>
+                <article class="product">
+                    <a href="net.html"><h1>Net</h1></a>
+                    <p>Pinkponkk proffesioneel net<br>|<br>€35</p>
+                    <i class="fa-regular fa-heart heart"></i>
+                    <img src="assets/images/netje (1).webp" alt="net" width="300" height="400">
+                    <button class="cart">Voeg toe aan winkelmandje</button>
+                </article>
+            </section>
+        </main>
+    </section>
+
+    <footer>
+        <section class="Contact">
+            <h2>Contact</h2><br>
+            <p class="ContactTekst"><strong>Tel:</strong><br>+32 468 15 18 81<br><strong>E-mail:</strong><br><a
+                    href="mailto:thomas.vantiggelen1@gmail.com">Thomas.vantiggelen1@gmail.com</a><br><strong>Adres:</strong><br>België<br>Vraagheideweg
+                60<Br>2970 Schilde</p>
+        </section>
+        <section class="media">
+            <h2>Media</h2>
+            <img src="assets/icons/instagram-removebg-preview.png" alt="instagram" width="30" length="30">
+            <img src="assets/icons/OIP-removebg-preview.png" alt="facebook" width="30" length="30">
+            <img src="assets/icons/R-removebg-preview.png" alt="twitter" width="30" length="30">
+            <img src="assets/icons/linkedin-removebg-preview.png" alt="linkedin" width="30" length="30">
+        </section>
+    </footer>
+</body>
+
+</html>

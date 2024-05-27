@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="contactpage">
+    <title>contact</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+    <script src="JS/mapScript.js" defer></script>
+    
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="assets/icons/fictieflogo.png" alt="logo" width="100" height="100"></a>
+        <nav>
+            <ul>
+                <li>
+                    <search>
+                        <form action="#">
+                            <label class="searchicon">
+                                <img src="assets/icons/SearchIcon.png" alt="search" width="20px" height="20px"><input type="search"
+                                    id="query" placeholder="zoeken" />
+                            </label>
+                        </form>
+                    </search>
+                <li><a href="index.html">home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="klanten.html">Klanten</a></li>
+                <li><a href="contact.html" class="active">contact</a></li>
+                <li><img src="assets/icons/Winkelkar.png" alt="winkelkar" width="30" height="25"></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="ContactForm">
+            <form>
+                <h1>Contactformulier</h1>
+                <section class="input1">
+                    <input type="text" id="name" required>
+                    <label class="ContactLabel" for="name">Vul hier je naam in.</label>
+                </section>
+                <section class="input1">
+                    <input type="email" id="email" required>
+                    <label class="ContactLabel" for="email">Wat is je e-mail?</label>
+                </section>
+                <section class="input1">
+                    <textarea id="message" rows="8" required></textarea>
+                    <label class="ContactLabel" for="message">Stel je vraag hier.</label>
+                </section>
+                <button type="submit">Indienen</button>
+            </form>
+            <div id="map"></div>
+        </section>
+    </main>
+    <footer>
+        <section class="Contact">
+            <h2>Contact</h2><br>
+            <p class="ContactTekst"><strong>Tel:</strong><br>+32 468 15 18 81<br><strong>E-mail:</strong><br><a
+                    href="mailto:thomas.vantiggelen1@gmail.com">Thomas.vantiggelen1@gmail.com</a><br><strong>Adres:</strong><br>België<br>Vraagheideweg
+                60<Br>2970 Schilde</p>
+        </section>
+        <section class="media">
+            <h2>Media</h2>
+            <img src="assets/icons/instagram-removebg-preview.png" alt="instagram" width="30" length="30">
+            <img src="assets/icons/OIP-removebg-preview.png" alt="facebook" width="30" length="30">
+            <img src="assets/icons/R-removebg-preview.png" alt="twitter" width="30" length="30">
+            <img src="assets/icons/linkedin-removebg-preview.png" alt="linkedin" width="30" length="30">
+        </section>
+    </footer>
+</body>
+
+</html>
