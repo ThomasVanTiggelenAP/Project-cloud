@@ -1,6 +1,6 @@
 <?php
 
-$databaseHost = 'localhost';
+$databaseHost = 'db';
 $databaseUsername = 'root';
 $databasePassword = 'admin';
 $databaseName = 'Pingponkk';
